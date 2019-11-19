@@ -1,9 +1,12 @@
 import React from 'react';
+import ShopPage from './components/ShopPage';
+
 
 function App() {
   return (
     <div>
-      <h1>Hello word</h1>
+      <ShopPage />
+
     </div>
   );
 }
