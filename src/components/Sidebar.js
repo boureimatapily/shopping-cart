@@ -1,4 +1,6 @@
 import React from 'react'
+import Sizes from './Sizes'
+import Sar
 
 const Sidebar = () => {
     return (

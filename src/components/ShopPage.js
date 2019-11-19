@@ -1,9 +1,22 @@
 import React from 'react'
+import Sidebar from './Sidebar'
+import MainContent from './MainContent'
+
 
 const ShopPage = () => {
     return (
-        <div>
-            <h1> This is ShopPage Component</h1>
+        <div className = "container">
+            <div className = "row">
+                <div className="col-lg-3">
+                    <Sidebar />
+
+                </div>
+                <div className="col-lg-9">
+                <MainContent />
+
+                </div>
+
+            </div>
         </div>
     )
 }
