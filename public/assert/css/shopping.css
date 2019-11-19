@@ -1,0 +1,40 @@
+hr {
+	color: yellow;
+	width: 10px;
+	height:10px;
+}
+.btn-color {
+	color: white;
+	background-color: black;
+}
+
+.btn-position {
+	float: right;
+	font-size: 10px;
+	width: 80px;
+}
+
+.btn-addC-size{
+	width: 180px;
+	
+}
+
+b{
+	font-size: 30px;
+	
+}
+
+.btn-cercle{
+	font-size: 14px;
+	background-color: rgb(221,221,221);	
+	color: black;
+	border-radius: 20px;
+}
+
+#price-color{
+	color: rgb(135,135,135);
+}
+
+.btn-bold{
+	font-weight: bold;
+}
