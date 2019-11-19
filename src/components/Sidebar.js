@@ -1,11 +1,13 @@
 import React from 'react'
 import Sizes from './Sizes'
-import Sar
+import StarGithub from './StarGithub'
 
 const Sidebar = () => {
     return (
         <div>
-            <h1> This is Sidebar Component</h1>
+            <Sizes />
+            <StarGithub />
+
         </div>
     )
 }
