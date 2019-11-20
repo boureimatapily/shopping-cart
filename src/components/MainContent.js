@@ -3,6 +3,11 @@ import Stcok from './Stock';
 import OrderBy from './OrderBy';
 import ProductNumber from './ProductNumber';
 
+import zak from '../images/adwoa.jpg';
+import awalcho from '../images/awal.jpg';
+import zak1 from '../images/zak.jpg';
+
+
 
 const MainContent = () => {
     return (
@@ -16,9 +21,10 @@ const MainContent = () => {
                 </div>
             </div>
             <div className="row">
-                <Stcok />
-            </div>
-            
+                <Stcok img= {zak} />
+                <Stcok img= {awalcho} />
+                <Stcok img= {zak1} />  
+            </div>     
         </div>
     )
 }
