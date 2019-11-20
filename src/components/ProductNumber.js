@@ -1,9 +1,9 @@
 import React from 'react'
 
 const ProductNumber = () => {
-    return(
+    return (
         <div>
-            <h1>This is ProductNumber Component</h1>
+            <h5>16 Products found(s)</h5>
         </div>
     )
 }
